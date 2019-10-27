@@ -33,6 +33,7 @@ func crawl(url string) []string {
 
 //!+main
 func main() {
+
 	worklist := make(chan []string)
 
 	// Start with the command-line arguments.
